@@ -1,0 +1,16 @@
+.odd{
+    background-color: hsl(326, 96%, 77%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#sele{
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+.tele{
+    font-size: 24px;
+}
+#numfour{
+    background-color: #33ff9f;
+    font-size: 24px;
+    font-weight: bold;
+}
