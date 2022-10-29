@@ -11,6 +11,24 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+/* added content*/
+.plants{
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  gap: 52px;
+}
+.plant{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+.text, .title{
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
