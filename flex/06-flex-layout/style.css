@@ -25,3 +25,37 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/* my solution */
+.header, .footer, body{
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer{
+  background-color: #eeeeee;
+}
+.left-links, .right-links{
+  display: flex;
+  gap: 16px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 16px;
+}
+a{
+  text-decoration: none;
+  color: #6a6a6a;
+  font-size: 21px;
+}
+button{
+  padding: 10px;
+}
